@@ -141,3 +141,12 @@ Install and set up CocoaPods by running the following commands:
 sudo gem install cocoapods
 pod setup
 ```
+
+## Q&A
+
+1. `[Error: Could not resolve the package 'characters' in 'package:characters/characters.dart'.] after enabling web`
+
+```sh
+flutter clean
+flutter run
+```
