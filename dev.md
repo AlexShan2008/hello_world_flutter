@@ -133,6 +133,14 @@ cd my_app
 flutter run
 ```
 
+## Develop On iPhone Simulator
+
+- First: you should start iPhone Simulator, then you can select the iPhone device
+
+```sh
+open -a Simulator
+```
+
 ## Deploy to iOS devices
 
 Install and set up CocoaPods by running the following commands:
