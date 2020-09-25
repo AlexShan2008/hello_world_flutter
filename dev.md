@@ -150,3 +150,50 @@ pod setup
 flutter clean
 flutter run
 ```
+
+## Add web support to an existing app
+
+```sh
+flutter create .
+```
+
+## Run as web
+> 目前只有 beta 版本支持
+
+```sh
+flutter channel beta
+flutter upgrade
+flutter config --enable-web
+flutter run -d chrome
+```
+
+## Build for web
+
+```sh
+flutter build web
+```
+
+## release files structures
+
+`/build/web`
+
+```
+/build/web
+  assets
+    AssetManifest.json
+    FontManifest.json
+    NOTICES
+    fonts
+      MaterialIcons-Regular.ttf
+      <other font files>
+    <image files>
+  index.html
+  main.dart.js
+  main.dart.js.map
+```
+
+## 查看绑定的设备
+
+```sh
+flutter devices
+```
